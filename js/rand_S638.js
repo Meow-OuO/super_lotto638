@@ -13,5 +13,5 @@ for (i = 1; i <= 6; i++) {
                 }	
             }
 			
-document.getElementById("S_lotto638").innerHTML='第一區: '+arr.sort(function(a, b){return a-b})+&emsp;+'第二區: '+rand(8)
+document.getElementById("S_lotto638").innerHTML='第一區:'+"&nbsp;"+arr.sort(function(a, b){return a-b})+"&emsp;"+'第二區:'+"&nbsp;"+rand(8)
 }
