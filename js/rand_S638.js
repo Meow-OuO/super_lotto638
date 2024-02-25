@@ -2,14 +2,15 @@ function rand(max) {
   return Math.floor(Math.random() * max)+1;
 }
 
+let num = 38;
 function roll() {
 let arr = [];
-let random = rand(38);
+let random = rand(num);
 
 for (i = 1; i <= 6; i++) {
                 arr.push(random);
                 while (arr.includes(random)) {
-                    random = rand(38);
+                    random = rand(num);
                 }	
             }
 			
