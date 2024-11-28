@@ -6,7 +6,6 @@ function roll() {
   let num = 38;
   let arr = [];
   
-  // 產生 6 個唯一的隨機數字
   while (arr.length < 6) {
     let random = rand(num);
     if (!arr.includes(random)) {
