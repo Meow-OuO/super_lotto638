@@ -13,7 +13,5 @@ function roll() {
     }
   }
 
-  arr.sort(function(a, b) { return a - b; });
-
-  document.getElementById("S_lotto638").innerHTML = '第一區:' + "&nbsp;" + arr.join(",") + "&emsp;" + '第二區:' + "&nbsp;" + rand(8);
+  document.getElementById("S_lotto638").innerHTML = '第一區:' + "&nbsp;" + arr.sort(function(a, b){ return a - b; }) + "&emsp;" + '第二區:' + "&nbsp;" + rand(8);
 }
